@@ -1,12 +1,12 @@
 for i in range(1, 101):
     if i % 3 == 0 and i % 5 == 0:
-        print("FIZZBUZZ")
+        print("FIZZBUZZ",end=" ")
     elif i % 3 == 0:
-        print("FIZZ")
+        print("FIZZ",end=" ")
     elif i % 5 == 0:
-        print("BUZZ")
+        print("BUZZ",end=" ")
     else:
-        print(i)
+        print(i,end=" ")
 
 
 # for num in range(1, 101):
